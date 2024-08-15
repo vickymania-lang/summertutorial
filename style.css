@@ -1,0 +1,173 @@
+header{
+    height: 50px;
+    margin: 20px 0px;
+}
+.head {
+    display: flex;
+    justify-content: center;
+    padding: 20px 30px;
+    text-align: center;
+}
+.head, li {
+    
+    list-style-type: none;
+    padding: 20px;
+    text-align: center;
+}
+.head, li, a {
+    text-decoration: none;
+}
+a:hover {
+    background-color: grey;
+    color: red;
+    cursor: pointer;
+}
+
+#banner_image {
+    width: 100%;
+    height: 80vh;
+    opacity: 0.5;
+    
+}
+
+
+.image_gaps{
+    padding: 40px 0px 0px 0px;
+}
+
+.my_article {
+    display: flex;
+}
+
+.column1{
+    text-align: center;
+    background-color: grey;
+    width: 50%;
+}
+
+.contact {
+    display: flex;
+}
+
+.column {
+    text-align: center;
+    width: 50%;
+    
+}
+.foot {
+    display: flex;
+    background-color: aliceblue;
+}
+
+/* about banner picture */
+
+.about_banner {
+    width: 100%;
+    height: 100px;
+    background-color: green;
+    color: white;
+    text-align: center;
+    padding-top: 30px;
+}
+
+
+
+.about_section {
+    width: 100%;
+    height: 80px;
+    background-color: green;
+    color: white;
+    text-align: center;
+}
+
+/* gallery style */
+
+*{
+    box-sizing: border-box;
+}
+
+#container:after {
+    content: "";
+    display: table;
+    clear: both;
+
+}
+
+.item-grid {
+    float: left;
+    width: 33.33%;
+    pad: 10px;
+    height: 300px;
+    background-repeat: no-repeat;
+}
+
+#form {
+    background-color: grey;
+    color: white;
+    text-align: center;
+    font-size: x-large;
+    margin: 20px;
+    padding: 20px;
+
+}
+
+.minifooter {
+    background-color: green;
+    color: white;
+    text-align: center;
+    width: 100%;
+    height: 50px;
+    padding: 5px 0px;
+
+}
+
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+
+  /* gallery style */
+
+  .container {
+    position: relative;
+    width: 100%;
+  }
+  
+  .image {
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+  
+  .overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: green;
+  }
+  
+  .container:hover .overlay {
+    opacity: 1;
+  }
+  
+  .text {
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }  
+  /* signup on wordpress.com  */

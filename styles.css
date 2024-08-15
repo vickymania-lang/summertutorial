@@ -1,0 +1,23 @@
+
+        .my_article{
+            display: flex;
+            justify-content: center;
+        }
+
+        .foot {
+            display: flex;
+            background-color: aliceblue;
+        }
+
+        .column {
+            text-align: center;
+            width: 50%;
+    
+        }
+
+        .column1{
+            text-align: center;
+            background-color: grey;
+            width: 50%;
+        }
+
