@@ -171,3 +171,33 @@ a:hover {
     text-align: center;
   }  
   /* signup on wordpress.com  */
+
+
+  /* media query */
+
+  @media only screen and (max-width: 430px) {
+    .head {
+        background-color: pink;
+        color: white;
+    }
+    .my_article {
+        width: 100%;
+        display: list-item;
+    }
+    .column1 {
+        width: 100%;
+    }
+    .foot {
+        display: list-item;
+    }
+
+    img {
+        width: 40%;
+        height: 30%;
+    }
+
+  }
+
+  @media only screen and (max-width: 1024) {
+
+  }
